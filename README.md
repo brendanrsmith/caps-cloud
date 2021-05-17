@@ -6,26 +6,28 @@
 
 ### Links and Resources
 
-- [ci/cd](https://github.com/brendigler/caps/actions)
+<!-- - [ci/cd](https://github.com/brendigler/caps/actions) -->
 <!-- - [server url]() -->
-- [pull request](https://github.com/brendigler/caps/pull/1)
+- [pull request](https://github.com/brendigler/caps-cloud/pulls/1)
 
 ### Setup
 
 #### `.env` requirements
 
-- `storeName` string
+- `VENDOR_ID` optional string
+- `VENDOR_URL`optional string
 
 #### How to initialize/run your application
 
 - clone to local repo
-- `npm install`
-- `npm start`
+- on each Vendor, Driver directory:
+  - `npm install`
+  - `npm start`
 
 #### Tests
 
-- Run tests with `npm test`
+![term](term.png)
 
 #### UML / Application Wiring Diagram
 
-![UML](uml.png)
+![UML](uml.jpg)
