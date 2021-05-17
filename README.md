@@ -21,8 +21,9 @@
 
 - clone to local repo
 - on each Vendor, Driver directory:
-  - `npm install`
-  - `npm start`
+  - `npm install` to install dependencies
+- `node driver.js` to pickup single package
+- `node vendor.js` to check for delivered packages and emit new pickup requests
 
 #### Tests
 
